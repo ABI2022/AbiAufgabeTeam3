@@ -20,7 +20,7 @@ bool Auktionssystem::anmelden()
 	cin >> kennwort;
 
 	for (auto m : mitglieder) {
-		if (m->getName() == name && m->getKennwort() == passwort) {
+		if (m->getName() == name && m->getKennwort() == kennwort) {
 			benutzer = m;
 			return true;
 		}

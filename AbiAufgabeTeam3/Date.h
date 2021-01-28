@@ -9,6 +9,7 @@ public:
 	Date();
 	Date(int tag, int monat, int jahr);
 	~Date();
+	
 	int getTag();
 	int getMonat();
 	int getJahr();
