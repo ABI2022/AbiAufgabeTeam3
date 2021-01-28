@@ -21,6 +21,12 @@
     <ClCompile Include="Mitglied.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="Date.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Artikel.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Mitglied.h">
@@ -29,6 +35,12 @@
     <ClCompile Include="Auktionssystem.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClInclude Include="Date.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Artikel.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Auktionssystem.h">
