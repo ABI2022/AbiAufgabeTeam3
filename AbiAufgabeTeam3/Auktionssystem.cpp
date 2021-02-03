@@ -25,6 +25,7 @@ bool Auktionssystem::anmelden()
 	for (auto m : mitglieder) {
 		if (m->getName() == name && m->getKennwort() == kennwort) {
 			benutzer = m;
+			cout << "Anmeldung erfolgreich!" << endl << endl;
 			return true;
 		}
 	}
