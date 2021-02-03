@@ -2,6 +2,7 @@
 #include <iostream>
 #include <list>
 #include "Artikel.h"
+#include "Gebot.h"
 using namespace std;
 
 class Mitglied
