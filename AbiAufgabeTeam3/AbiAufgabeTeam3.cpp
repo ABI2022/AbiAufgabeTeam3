@@ -1,10 +1,9 @@
-#include <iostream>
-#include "Artikel.h"
-#include "Auktionssystem.h"
-#include "Date.h"
-#include "Gebot.h"
-#include "Mitglied.h"
 
+#include "Auktionssystem.h"
+
+#include "Mitglied.h"
+#include <iostream>
+using namespace std;
 
 int main()
 {
@@ -24,11 +23,8 @@ int main()
 
     auk1->anmelden();
     auk1->artikelEinstellen();
+    
 
-
-
-
-   
 
 
 

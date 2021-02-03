@@ -1,9 +1,10 @@
 #pragma once
-#include <iostream>
-#include "Artikel.h"
-#include "Mitglied.h"
-using namespace std;
 
+//#include "Mitglied.h"
+//#include "Artikel.h"
+
+class Mitglied; // Vorwärtsdeklaration
+class Artikel;
 class Gebot
 {
 private:
@@ -17,4 +18,3 @@ public:
     double getBetrag();
     Mitglied* getBieter();
 };
-
