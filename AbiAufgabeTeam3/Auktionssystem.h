@@ -1,5 +1,8 @@
 #pragma once
 
+#include <list>
+
+
 #include "Mitglied.h"
 #include "Date.h"
 #include "Artikel.h"

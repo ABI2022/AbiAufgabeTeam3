@@ -1,4 +1,7 @@
+#include <string>
 #include "Artikel.h"
+
+using namespace std;
 
 Artikel::Artikel(string bezeichnung, Mitglied* verkaeufer)
 {

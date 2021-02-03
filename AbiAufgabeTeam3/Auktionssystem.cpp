@@ -1,4 +1,7 @@
+#include <string>
+#include <iostream>
 #include "Auktionssystem.h"
+using namespace std;
 
 Auktionssystem::Auktionssystem()
 {

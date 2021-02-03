@@ -1,4 +1,6 @@
+#include <string>
 #include "Mitglied.h"
+using namespace std;
 
 Mitglied::Mitglied(string name, string email)
 {

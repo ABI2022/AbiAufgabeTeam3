@@ -1,9 +1,11 @@
 #pragma once
-#include <iostream>
+
 #include <list>
+#include <string>
 #include "Artikel.h"
 #include "Gebot.h"	
 using namespace std;
+
 
 class Mitglied
 {
