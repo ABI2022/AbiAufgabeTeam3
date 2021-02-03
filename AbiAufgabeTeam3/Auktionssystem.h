@@ -5,7 +5,7 @@ using namespace std;
 
 #include "Mitglied.h"
 #include "Date.h"
-#include "Artikel"
+#include "Artikel.h"
 
 class Auktionssystem
 {
