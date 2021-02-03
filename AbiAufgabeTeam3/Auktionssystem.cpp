@@ -67,7 +67,7 @@ Mitglied* Auktionssystem::sucheMitglied(string name)
 
 Artikel* Auktionssystem::sucheArtikel(string bezeichnung)
 {
-	if (auto a : artikel) {
+	for (Artikel* a : artikel) {
 		if (a->getBezeichnung() == bezeichnung)
 			return a;
 	}
