@@ -13,5 +13,6 @@ public:
 	int getTag();
 	int getMonat();
 	int getJahr();
+	int zsm();
 };
 

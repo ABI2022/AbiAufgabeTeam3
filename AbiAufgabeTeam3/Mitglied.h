@@ -2,6 +2,7 @@
 #include <iostream>
 #include <list>
 #include "Artikel.h"
+#include "Gebot.h"	
 using namespace std;
 
 class Mitglied
@@ -39,12 +40,12 @@ public:
 	string getEmail();
 	void setEmail(string email);
 
-	List<Artikel*> getAngebotenenArtikel();
+	list<Artikel*> getAngebotenenArtikel();
 
-	List<Artikel*> getVerkaufteArtikel();
+	list<Artikel*> getVerkaufteArtikel();
 
-	void gebotHinzufuegen(Gebot gebot);
+	void gebotHinzufuegen(Gebot* gebot);
 
-	void angebotenenArtikelHinzufuegen(Artikel artikel);
+	void angebotenenArtikelHinzufuegen(Artikel* artikel);
 
 };

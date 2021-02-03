@@ -13,6 +13,7 @@ Artikel::~Artikel()
 void Artikel::gebotHinzufuegen(Gebot* gebot)
 {
 	gebote.push_back(gebot);
+	gebot->getBieter()->gebotHinzufuegen(gebot);
 }
 
 Gebot* Artikel::getHoechstesGebot()
@@ -22,7 +23,10 @@ Gebot* Artikel::getHoechstesGebot()
 
 bool Artikel::istVerkauft()
 {
-	if (auktionsEnde.)
+	if (auktionsEnde->zsm() >= 20210203)
+		return true;
+	else
+		return false;
 }
 
 string Artikel::getBezeichnung()

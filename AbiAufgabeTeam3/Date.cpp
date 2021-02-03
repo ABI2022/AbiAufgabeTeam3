@@ -2,6 +2,9 @@
 
 Date::Date()
 {
+	jahr = 0;
+	monat = 0;
+	tag = 0;
 }
 
 Date::Date(int tag, int monat, int jahr)
@@ -28,4 +31,14 @@ int Date::getMonat()
 int Date::getJahr()
 {
 	return jahr;
+}
+
+int Date::zsm()
+{
+	int zsm = 0;
+
+	zsm = jahr * 10000;
+	zsm += monat * 100;
+	zsm += tag;
+	return zsm;
 }
