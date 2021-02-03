@@ -53,7 +53,7 @@ void Auktionssystem::artikelEinstellen()
 
 	cout << "Bitte geben Sie eine Bezeichnung ein!" << endl << ">";
 	cin >> bezeichnung;
-	artikel.push_back(bezeichnung, benutzer);
+	artikel.push_back(new Artikel(bezeichnung, benutzer));
 }
 
 Mitglied* Auktionssystem::sucheMitglied(string name)
@@ -67,6 +67,7 @@ Mitglied* Auktionssystem::sucheMitglied(string name)
 
 Artikel* Auktionssystem::sucheArtikel(string bezeichnung)
 {
+	for (auto a : artikel) {
 	for (Artikel* a : artikel) {
 		if (a->getBezeichnung() == bezeichnung)
 			return a;

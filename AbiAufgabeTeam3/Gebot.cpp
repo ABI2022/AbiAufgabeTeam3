@@ -18,3 +18,8 @@ double Gebot::getBetrag()
 {
     return betrag;
 }
+
+Mitglied* Gebot::getBieter()
+{
+    return bieter;
+}

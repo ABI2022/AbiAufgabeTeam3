@@ -69,25 +69,25 @@ void Mitglied::setEmail(string email)
     this->email = email;
 }
 
-List<Artikel*> Mitglied::getAngebotenenArtikel()
+list<Artikel*> Mitglied::getAngebotenenArtikel()
 {
-    return getAngebotenenArtikel;
+    return angebotenenArtikel;
 }
 
-void Mitglied::gebotHinzufuegen(Gebot neu)
+void Mitglied::gebotHinzufuegen(Gebot* neu)
 {
-    gebot.push_back(neu);
+    gebote.push_back(neu);
 }
 
-void Mitglied::angebotenenArtikelHinzufuegen(Artikel neu)
+void Mitglied::angebotenenArtikelHinzufuegen(Artikel* neu)
 {
     angebotenenArtikel.push_back(neu);
 }
 
 
-List<Artikel*> Mitglied::getVerkaufteArtikel()
+list<Artikel*> Mitglied::getVerkaufteArtikel()
 {
-    for (Artikel x : angebotenenArtikel)
+    for (Artikel* x : angebotenenArtikel)
     {
         if (x->istVerkauft())
         {
