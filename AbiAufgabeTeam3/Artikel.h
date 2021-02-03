@@ -5,7 +5,7 @@ using namespace std;
 
 #include "Mitglied.h"
 #include "Date.h"
-#include "Gebot.h"
+#include "Gebot"
 
 class Artikel
 {

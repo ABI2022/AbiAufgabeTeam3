@@ -13,7 +13,6 @@ Artikel::~Artikel()
 void Artikel::gebotHinzufuegen(Gebot* gebot)
 {
 	gebote.push_back(gebot);
-
 }
 
 Gebot* Artikel::getHoechstesGebot()
