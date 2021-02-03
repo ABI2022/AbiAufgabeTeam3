@@ -21,5 +21,10 @@ double Gebot::getBetrag()
 
 Mitglied* Gebot::getBieter()
 {
+	return nullptr;
+}
+
+Mitglied* Gebot::getBieter()
+{
     return bieter;
 }
