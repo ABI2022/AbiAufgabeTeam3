@@ -140,6 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AbiAufgabeTeam3.cpp" />
+    <ClCompile Include="Gebot.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Gebot.h" />
     <ClCompile Include="Artikel.cpp" />
     <ClCompile Include="Auktionssystem.cpp" />
   </ItemGroup>
