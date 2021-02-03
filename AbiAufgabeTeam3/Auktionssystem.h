@@ -1,11 +1,12 @@
 #pragma once
-#include <iostream>
-#include <list>
-using namespace std;
 
 #include "Mitglied.h"
 #include "Date.h"
 #include "Artikel.h"
+
+#include <iostream>
+#include <list>
+using namespace std;
 
 class Auktionssystem
 {
