@@ -144,6 +144,18 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Gebot.h" />
+    <ClCompile Include="Artikel.cpp" />
+    <ClCompile Include="Auktionssystem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Artikel.h" />
+    <ClInclude Include="Auktionssystem.h" />
+    <ClCompile Include="Date.cpp" />
+    <ClCompile Include="Mitglied.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Date.h" />
+    <ClInclude Include="Mitglied.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
