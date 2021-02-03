@@ -19,6 +19,8 @@ double Gebot::getBetrag()
     return betrag;
 }
 
+Mitglied* Gebot::getBieter()
+{
 
 
 Mitglied* Gebot::getBieter()
