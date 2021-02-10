@@ -1,12 +1,27 @@
 #include <string>
 #include "Artikel.h"
+#include <iostream>
 
 using namespace std;
 
 Artikel::Artikel(string bezeichnung, Mitglied* verkaeufer)
 {
+	double startpreis = 0;
+	int jahr = 0;
+	int monat = 0;
+	int tag = 0;
 	this->bezeichnung = bezeichnung;
 	this->verkaeufer = verkaeufer;
+	cout << "Bitte geben Sie einen Startpreis ein" << endl << ">";
+	cin >> startpreis;
+	cout << "Bitte geben sie ein Auktionsende ein JJJJ" << endl << ">";
+	cin >> jahr;
+	cout << "MM" << endl << ">";
+	cin >> monat;
+	cout << "TT" << endl << ">";
+	cin >> tag;
+	auktionsEnde = new Date(tag, monat, jahr);
+	startPreis = startpreis;
 }
 
 Artikel::~Artikel()
