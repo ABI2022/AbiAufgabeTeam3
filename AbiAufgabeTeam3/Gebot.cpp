@@ -21,9 +21,5 @@ double Gebot::getBetrag()
 
 Mitglied* Gebot::getBieter()
 {
-
-
-Mitglied* Gebot::getBieter()
-{
     return bieter;
 }

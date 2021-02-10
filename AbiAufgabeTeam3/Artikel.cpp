@@ -21,6 +21,11 @@ void Artikel::gebotHinzufuegen(Gebot* gebot)
 
 Gebot* Artikel::getHoechstesGebot()
 {
+	double hoechste = 0;
+	for (auto g : gebote) {
+		if (g->getBetrag() >= hoechste)
+			hoechste = g->getBetrag();
+	}
 	return nullptr;
 }
 
