@@ -46,7 +46,7 @@ Gebot* Artikel::getHoechstesGebot()
 
 bool Artikel::istVerkauft()
 {
-	if (auktionsEnde->zsm() >= 20210203)
+	if (auktionsEnde->zsm() >= 20210210)
 		return true;
 	else
 		return false;
